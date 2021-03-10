@@ -13,7 +13,7 @@ const PersonInfo = () => {
           <Typography variant="h3" color="primary">
             Omar Nayef
           </Typography>
-          <Typography variant="h3" color="textSecondary">
+          <Typography variant="h4" color="textSecondary">
             Software Engineer. Frontend Web Developer(React.js)
           </Typography>
 
