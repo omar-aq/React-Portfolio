@@ -51,14 +51,14 @@ const Form = () => {
   };
 
   return (
-    <Box m={5} p={5} id="form">
+    <Box m={1} id="form" style={{ width: "90%" }}>
       <Box mb={3}>
         <Typography variant="h3" color="textSecondary">
           Contact
         </Typography>
       </Box>
       <form onSubmit={submitHandle}>
-        <Grid container justify="space-around">
+        <Grid container justify="center">
           <Grid item xs={12} sm={5}>
             <Grid
               container
@@ -124,7 +124,7 @@ const Form = () => {
             </Grid>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <img width="100%" src={Pic} alt="form-pic" />
+            <img width="80%" src={Pic} alt="form-pic" />
           </Grid>
         </Grid>
       </form>

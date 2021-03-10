@@ -14,8 +14,8 @@ const About = () => {
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
-        <Box width="70%" p={5} m={5}>
-          <Typography variant="h3" color="textSecondary">
+        <Box p={5} m={5}>
+          <Typography variant="h4" color="textSecondary">
             About Me
           </Typography>
           <Typography variant="h6" color="textSecondary">

@@ -9,7 +9,7 @@ import { SiUpwork } from "react-icons/si";
 const Footer = () => {
   return (
     <Box mt={5} p={5}>
-      <Grid container justify="space-between">
+      <Grid container justify="space-between" style={{ width: "100%" }}>
         <Grid item xs={12} sm={12} md={6}>
           <Typography variant="body2" color="textSecondary" align="center">
             Copyright © Omar Nayef

@@ -22,7 +22,7 @@ const Repos = () => {
         Projects
       </Typography>
       <Box m={5}>
-        <Grid container justify="center">
+        <Grid container justify="center" style={{ width: "100%" }}>
           {repos.map((item) => {
             return (
               <Grid xs={12} sm={8} md={5} lg={3} item key={item.id}>
