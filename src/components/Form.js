@@ -15,14 +15,19 @@ import Pic from "../icons/form.svg";
 const Form = () => {
   const [email, setEmail] = React.useState("");
   const [isError, setIsError] = React.useState(false);
-  const changeHandle = (e) => {
-    setIsError(false);
-    setEmail(e.target.value);
-    if (/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
+
+  React.useEffect(() => {
+    if (
+      /[a-zA-Z0-9]+[.]?([a-zA-Z0-9]+)?[@][a-z]{3,9}[.][a-z]{3,5}/.test(email)
+    ) {
       setIsError(false);
-    } else {
-      setIsError(true);
-    }
+    } else if (!email) {
+      setIsError(false);
+    } else setIsError(true);
+  }, [email]);
+
+  const changeHandle = (e) => {
+    setEmail(e.target.value);
   };
 
   const submitHandle = (e) => {
@@ -47,6 +52,7 @@ const Form = () => {
         );
 
       e.target.reset();
+      setEmail("");
     }
   };
 

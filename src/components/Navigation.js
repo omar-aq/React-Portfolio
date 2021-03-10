@@ -35,7 +35,7 @@ const Navigation = () => {
 
   return (
     <>
-      <AppBar position="static">
+      <AppBar position="sticky">
         <Toolbar>
           <IconButton
             aria-controls="menu-appbar"
