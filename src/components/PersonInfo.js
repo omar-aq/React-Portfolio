@@ -10,10 +10,10 @@ const PersonInfo = () => {
     <Grid container justify="space-around">
       <Grid item xs={12} sm={12} md={6}>
         <Box p={5} m={5}>
-          <Typography variant="h3" color="primary">
+          <Typography variant="h4" color="primary">
             Omar Nayef
           </Typography>
-          <Typography variant="h4" color="textSecondary">
+          <Typography variant="h5" color="textSecondary">
             Software Engineer. Frontend Web Developer(React.js)
           </Typography>
 
