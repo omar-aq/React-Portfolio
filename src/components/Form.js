@@ -57,14 +57,14 @@ const Form = () => {
   };
 
   return (
-    <Box m={1} id="form" style={{ width: "90%" }}>
+    <Box m={1} id="form">
       <Box mb={3}>
         <Typography variant="h3" color="textSecondary">
           Contact
         </Typography>
       </Box>
-      <form onSubmit={submitHandle}>
-        <Grid container justify="center">
+      <form onSubmit={submitHandle} style={{ width: "100%" }}>
+        <Grid container justify="space-around">
           <Grid item xs={12} sm={5}>
             <Grid
               container
