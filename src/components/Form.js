@@ -130,7 +130,9 @@ const Form = () => {
             </Grid>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <img width="80%" src={Pic} alt="form-pic" />
+            <Box ml={5}>
+              <img width="80%" src={Pic} alt="form-pic" />
+            </Box>
           </Grid>
         </Grid>
       </form>
