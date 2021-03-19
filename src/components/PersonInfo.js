@@ -16,12 +16,13 @@ const PersonInfo = () => {
           <Typography variant="h5" color="textSecondary">
             Software Engineer. Frontend Web Developer(React.js)
           </Typography>
-
-          <a href="#form">
-            <Button color="primary" variant="contained">
-              Contact Me
-            </Button>
-          </a>
+          <Box pt={2}>
+            <a href="#form">
+              <Button color="primary" variant="contained">
+                Contact Me
+              </Button>
+            </a>
+          </Box>
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
