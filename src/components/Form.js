@@ -57,7 +57,7 @@ const Form = () => {
   };
 
   return (
-    <Box m={1} id="form">
+    <Box p={1} id="form">
       <Box mb={3}>
         <Typography variant="h3" color="textSecondary">
           Contact
@@ -130,7 +130,7 @@ const Form = () => {
             </Grid>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <Box ml={5}>
+            <Box pl={5}>
               <img width="80%" src={Pic} alt="form-pic" />
             </Box>
           </Grid>

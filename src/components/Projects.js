@@ -14,7 +14,7 @@ import {
 import { GoStar, GoRepoForked } from "react-icons/go";
 const Projects = ({ name, id, description, stargazers_count, forks }) => {
   return (
-    <Box m={1} p={1}>
+    <Box p={2}>
       <Card style={{ width: "100%" }} key={id}>
         <CardContent>
           <Typography color="textPrimary">{name}</Typography>

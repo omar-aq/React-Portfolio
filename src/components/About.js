@@ -9,12 +9,12 @@ const About = () => {
   return (
     <Grid container justify="center" id="about">
       <Grid item xs={12} sm={12} md={6}>
-        <Box p={5} m={5}>
+        <Box p={10}>
           <img width="100%" height="auto" src={Pic} alt="about" />
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
-        <Box p={5} m={5}>
+        <Box p={10}>
           <Typography variant="h4" color="textSecondary">
             About Me
           </Typography>

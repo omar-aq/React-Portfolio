@@ -21,7 +21,7 @@ const Repos = () => {
       <Typography align="center" variant="h4" color="textSecondary">
         Projects
       </Typography>
-      <Box m={5}>
+      <Box p={5}>
         <Grid container justify="center" style={{ width: "100%" }}>
           {repos.map((item) => {
             return (

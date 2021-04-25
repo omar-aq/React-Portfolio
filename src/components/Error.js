@@ -7,12 +7,12 @@ import Pic from "../icons/error.svg";
 const Error = () => {
   return (
     <Grid container alignItems="center" direction="column">
-      <Box m={5}>
+      <Box p={5}>
         <Grid item>
           <img width="70%" src={Pic} alt="error-pic" />
         </Grid>
       </Box>
-      <Box m={5}>
+      <Box p={5}>
         <Grid item>
           <Link to="/">
             <Button color="primary" variant="contained">

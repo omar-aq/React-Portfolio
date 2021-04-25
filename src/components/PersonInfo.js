@@ -7,9 +7,9 @@ import Pic from "../icons/person.svg";
 
 const PersonInfo = () => {
   return (
-    <Grid container justify="space-around" style={{ width: "100%" }}>
+    <Grid container style={{ width: "100%" }}>
       <Grid item xs={12} sm={12} md={6}>
-        <Box p={5} m={5}>
+        <Box p={10} justifyContent="center">
           <Typography variant="h4" color="primary">
             Omar Nayef
           </Typography>
@@ -26,7 +26,7 @@ const PersonInfo = () => {
         </Box>
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
-        <Box p={5} m={5}>
+        <Box p={10}>
           <img width="100%" height="auto" src={Pic} alt="person" />
         </Box>
       </Grid>

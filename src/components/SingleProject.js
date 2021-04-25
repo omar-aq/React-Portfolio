@@ -24,7 +24,7 @@ const SingleProject = () => {
   return (
     <>
       <Grid container justify="center">
-        <Box m={5} p={5}>
+        <Box p={10}>
           <img width="60%" src={Pic} alt="project-pic" />
           {projects.map((item) => {
             const {
@@ -37,13 +37,13 @@ const SingleProject = () => {
             if (item.id === parseInt(id)) {
               return (
                 <Box key={item.id}>
-                  <Box m={1} p={1}>
+                  <Box p={2}>
                     <Typography variant="h6">{name}</Typography>
                   </Box>
-                  <Box m={1} p={1}>
+                  <Box p={2}>
                     <Typography color="textSecondary">{description}</Typography>
                   </Box>
-                  <Box m={1} p={1}>
+                  <Box p={2}>
                     <Typography>
                       <GoRepoForked />
                       {forks}
@@ -53,14 +53,14 @@ const SingleProject = () => {
                       {stargazers_count}
                     </Typography>
                   </Box>
-                  <Box m={1} p={1}>
+                  <Box p={2}>
                     <a href={html_url} target="_blank" rel="noreferrer">
                       <Button color="primary" variant="outlined">
                         Repository
                       </Button>
                     </a>
                   </Box>
-                  <Box m={1} p={1}>
+                  <Box p={2}>
                     <Link to="/">
                       <Button color="primary" variant="contained">
                         Go Home
